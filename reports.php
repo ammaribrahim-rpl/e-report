@@ -12,7 +12,7 @@ header('refresh:3;Content-Type: text/html; charset=UTF-8');
         <!-- Card 1 -->
         <?php
         if (empty($reports)) : ?>
-            <h1 class="font-bold text-3xl text-black">Data kosong</h1>
+            <h1 class="font-bold text-3xl text-black">Empty Data</h1>
         <?php else : ?>
             <?php
             foreach ($reports as $report) :

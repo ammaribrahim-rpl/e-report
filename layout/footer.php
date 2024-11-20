@@ -10,6 +10,9 @@
 <script src="https://cdn.ckeditor.com/ckeditor5/43.3.0/ckeditor5.umd.js"></script>
 <script src="../script/ckeditor.js"></script>
 <script src="../script/datatable.js"></script>
+<!-- Preline -->
+<script src="./node_modules/lodash/lodash.min.js"></script>
+<script src="./node_modules/apexcharts/dist/apexcharts.min.js"></script>
 </body>
 
 </html>

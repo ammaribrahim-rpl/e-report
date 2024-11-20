@@ -114,7 +114,7 @@ $roles = query("SELECT * FROM roles");
             <?php if (empty($users)) : ?>
                 <tr>
                     <td colspan="6" class="bg-blue-400 px-6 py-4 text-center text-white">
-                        Data kosong
+                        Empty Data
                     </td>
                 </tr>
             <?php else :

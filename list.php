@@ -45,7 +45,7 @@ if ($role_name !== 'masyarakat') {
             <?php if (empty($reports)) : ?>
                 <tr>
                     <td colspan="6" class="bg-blue-400 px-6 py-4 text-center text-white">
-                        Data kosong
+                        Empty Data
                     </td>
                 </tr>
             <?php else :

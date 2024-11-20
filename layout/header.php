@@ -19,9 +19,11 @@
     <!-- Modules -->
     <script src="../script/confirm.js"></script>
     <script src="../script/title.js"></script>
+    <!-- preline -->
+    <link rel="stylesheet" href="./node_modules/apexcharts/dist/apexcharts.css">
 
-    <title>Lapor Heker</title>
+    <title>Report Malfunction System</title>
 
 </head>
 
-<body class="w-full h-auto lg:h-screen bg-sitebg">
+<body class="w-full h-auto lg:h-screen bg-sitebg bg-gray-800">
