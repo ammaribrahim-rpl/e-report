@@ -20,18 +20,18 @@ if (isset($_SESSION['login'])) {
 </head>
 
 
-<body class="bg-gray-200 font-sans text-gray-700">
+<body class="bg-gray-800 font-sans">
     <div class="container mx-auto p-8 flex">
         <div class="max-w-md w-full mx-auto">
             <div class="container flex flex-col justify-center items-center">
                 <img src="../assets/images/logo.png " class="mr-3 w-1/4" alt="Logo" />
-                <span class="bg-gradient-to-r text-transparent from-green-500 to-black bg-clip-text">
-                    <h1 class="text-4xl text-center mb-12 font-bold ">Login lur</h1>
+                <span class="bg-gradient-to-r text-transparent from-blue-300 to-blue-700 bg-clip-text">
+                    <h1 class="text-4xl text-center mb-12 font-bold ">Login</h1>
                 </span>
 
             </div>
 
-            <div class="bg-white rounded-lg overflow-hidden shadow-2xl">
+            <div class="bg-white text-black rounded-lg overflow-hidden shadow-2xl">
                 <div class="p-8">
                     <form method="POST" action="../utils/auth.php">
                         <div class="mb-5">
@@ -42,7 +42,7 @@ if (isset($_SESSION['login'])) {
                             <input placeholder="*********" type="password" name="password" class="block w-full p-3 rounded bg-gray-200 border border-transparent focus:outline-none">
                         </div>
 
-                        <button type="submit" name="login" class="w-full p-3 mt-4 bg-blue-500 text-white rounded shadow hover:bg-blue-600">Login</button>
+                        <button type="submit" name="login" class="w-full p-3 mt-4 bg-blue-400 text-blac rounded shadow hover:bg-blue-500 text-white">Login</button>
                     </form>
                 </div>
 
