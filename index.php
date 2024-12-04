@@ -31,7 +31,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/layout/sidebar.php");
                         text: 'You don\'t have access to this page',
                         icon: 'error'
                         }).then((result) => {
-                            window.history.back();
+                            window.location.href = 'index.php?page=reports';
                         });
                     </script>";
         }

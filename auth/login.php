@@ -19,7 +19,6 @@ if (isset($_SESSION['login'])) {
     <title>Document</title>
 </head>
 
-
 <body class="bg-gray-800 font-sans">
     <div class="container mx-auto p-8 flex">
         <div class="max-w-md w-full mx-auto">
